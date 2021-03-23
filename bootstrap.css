@@ -67,8 +67,8 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #222;
-  text-align: left;
-  background-color: #fff;
+  text-align: center;
+  
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -233,7 +233,9 @@ label {
 }
 
 button {
-  border-radius: 0;
+  border-radius: 3%;
+  padding: 2%;
+  box-shadow: aqua;
 }
 
 button:focus:not(:focus-visible) {
