@@ -1,6 +1,12 @@
 {
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "http-errors": "^1.7.2"
   },
   "scripts": {
     "start": "node server.js"
@@ -8,7 +14,6 @@
   "name": "gdi-pathways-quiz",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
